@@ -1,5 +1,11 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-
+using SampleApp.API.Entities;
+using SampleApp.API.Interfaces;
 using Swashbuckle.AspNetCore.Annotations;
 
 namespace SampleApp.API.Controllers
